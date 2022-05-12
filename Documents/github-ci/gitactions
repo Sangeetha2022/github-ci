@@ -1,0 +1,22 @@
+Git hub actions to build ci/cd pipeline
+=================================
+Open your terminal and run
+
+ npx create-react-app github-ci
+ 
+ 
+ 
+ Open your project on your code editor
+Create a repository on GitHub
+Add the git remote origin to your project
+
+git remote add origin https://github.com/Sangeetha2022/github-ci.git 
+
+The next step is to create our Actions (workflow)
+
+The action must be created inside a .github/workflow/ folder for it to be accessible by Github
+
+To create the folder structure, run the command below inside the root of your project directory
+
+mkdir .github/
+mkdir .github/workflows/
